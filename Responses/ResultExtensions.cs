@@ -16,6 +16,12 @@ public static class ResultExtensions
         if (result.IsSuccess)
             return new OkObjectResult(response);
 
+        if (result.StatusCode.HasValue)
+            return new ObjectResult(response)
+            {
+                StatusCode = result.StatusCode.Value
+            };
+
         if (result.Errors != null && result.Errors.Any(e => e.Contains("Unauthorized")))
             return new UnauthorizedObjectResult(response);
 
