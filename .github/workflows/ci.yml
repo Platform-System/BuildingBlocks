@@ -13,7 +13,8 @@ jobs:
     uses: Platform-System/Platform.CI-CD/.github/workflows/build-dotnet.yml@main
     secrets: inherit
     with:
-      project_path: 'Platform.BuildingBlocks.csproj'
+      project_path: 'Platform.BuildingBlocks.csproj'
+      test_path: 'Platform.BuildingBlocks.Tests/Platform.BuildingBlocks.Tests.csproj'
 
 
 
