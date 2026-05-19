@@ -22,7 +22,8 @@ public static class ResultExtensions
                 StatusCode = result.StatusCode.Value
             };
 
-        if (result.Errors != null && result.Errors.Any(e => e.Contains("Unauthorized")))
+        if (result.Errors != null && result.Errors.Any(e =>
+                e.Contains("Unauthorized", StringComparison.OrdinalIgnoreCase)))
             return new UnauthorizedObjectResult(response);
 
         return new BadRequestObjectResult(response);

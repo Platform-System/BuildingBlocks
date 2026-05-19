@@ -33,6 +33,14 @@ public sealed class ResultExtensionsTests
     }
 
     [Fact]
+    public void ToActionResult_WhenUnauthorizedErrorHasDifferentCasing_ReturnsUnauthorizedObjectResult()
+    {
+        var actionResult = Result<string>.Failure("unauthorized access").ToActionResult();
+
+        Assert.IsType<UnauthorizedObjectResult>(actionResult);
+    }
+
+    [Fact]
     public void ToActionResult_WhenGenericFailure_ReturnsBadRequestObjectResult()
     {
         var actionResult = Result<string>.Failure("Validation failed").ToActionResult();
