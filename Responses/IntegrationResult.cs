@@ -1,4 +1,4 @@
-namespace Platform.BuildingBlocks.Responses;
+namespace BuildingBlocks.Responses;
 
 public enum IntegrationErrorType
 {

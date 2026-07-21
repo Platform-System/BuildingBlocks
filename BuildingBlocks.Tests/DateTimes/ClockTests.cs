@@ -1,8 +1,8 @@
-using Platform.BuildingBlocks.Abstractions;
-using Platform.BuildingBlocks.DateTimes;
+using BuildingBlocks.Abstractions;
+using BuildingBlocks.DateTimes;
 using Xunit;
 
-namespace Platform.BuildingBlocks.Tests.DateTimes;
+namespace BuildingBlocks.Tests.DateTimes;
 
 public sealed class ClockTests
 {

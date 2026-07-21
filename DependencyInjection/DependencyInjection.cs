@@ -1,8 +1,8 @@
 using Microsoft.Extensions.DependencyInjection;
-using Platform.BuildingBlocks.Abstractions;
-using Platform.BuildingBlocks.DateTimes;
+using BuildingBlocks.Abstractions;
+using BuildingBlocks.DateTimes;
 
-namespace Platform.BuildingBlocks.DependencyInjection;
+namespace BuildingBlocks.DependencyInjection;
 
 public static class DependencyInjection
 {

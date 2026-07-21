@@ -1,4 +1,4 @@
-namespace Platform.BuildingBlocks.Requests;
+namespace BuildingBlocks.Requests;
 
 public class PagingRequest
 {

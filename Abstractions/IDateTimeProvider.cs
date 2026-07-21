@@ -1,4 +1,4 @@
-namespace Platform.BuildingBlocks.Abstractions
+namespace BuildingBlocks.Abstractions
 {
     public interface IDateTimeProvider
     {

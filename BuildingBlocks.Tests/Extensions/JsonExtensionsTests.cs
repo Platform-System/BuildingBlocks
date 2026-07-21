@@ -1,8 +1,8 @@
-using Platform.BuildingBlocks.Json;
+using BuildingBlocks.Json;
 using System.Text.Json;
 using Xunit;
 
-namespace Platform.BuildingBlocks.Tests.Extensions;
+namespace BuildingBlocks.Tests.Extensions;
 
 public sealed class JsonExtensionsTests
 {

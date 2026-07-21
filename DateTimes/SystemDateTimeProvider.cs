@@ -1,6 +1,6 @@
-using Platform.BuildingBlocks.Abstractions;
+using BuildingBlocks.Abstractions;
 
-namespace Platform.BuildingBlocks.DateTimes
+namespace BuildingBlocks.DateTimes
 {
     public class SystemDateTimeProvider : IDateTimeProvider
     {

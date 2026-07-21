@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace Platform.BuildingBlocks.Responses;
+namespace BuildingBlocks.Responses;
 
 public static class ResultExtensions
 {

@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
-using Platform.BuildingBlocks.Responses;
+using BuildingBlocks.Responses;
 using Xunit;
 
-namespace Platform.BuildingBlocks.Tests.Responses;
+namespace BuildingBlocks.Tests.Responses;
 
 public sealed class ResultExtensionsTests
 {

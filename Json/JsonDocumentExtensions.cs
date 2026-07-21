@@ -1,6 +1,6 @@
 using System.Text.Json;
 
-namespace Platform.BuildingBlocks.Json;
+namespace BuildingBlocks.Json;
 
 public static class JsonDocumentExtensions
 {

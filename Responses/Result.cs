@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace Platform.BuildingBlocks.Responses;
+namespace BuildingBlocks.Responses;
 
 public class Result<T>
 {
